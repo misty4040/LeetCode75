@@ -1,6 +1,5 @@
 import java.util.Arrays;
-import java.util.HashMap;
-import java.util.HashSet;
+
 
 public class KthLargestElement {
     public static void main(String[] args) {
@@ -12,10 +11,7 @@ public class KthLargestElement {
 
     private static int findKthLargest(int[] nums, int k) {
         Arrays.sort(nums);
-//        HashSet<Integer> map=new HashSet<>();
-//        for (int arr:nums){
-//            map.add(arr);
-//        }
+
 
        return nums.length-k;
 
